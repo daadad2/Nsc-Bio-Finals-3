@@ -42,14 +42,14 @@ function initPage() {
       
       const page = this.getAttribute('data-page');
       const bgImages = {
-        home: 'images/bg-1.png',
-        paleozoic: 'images/paleo.webp',
-        mesozoic: 'images/822f8fb9811d9b71fa4c167a76de683f.jpg',
-        cenozoic: 'images/bg-2.png',
-        team: 'images/bg-4.png',
-        members: 'images/team.jpg',
-        references: 'images/thumb-1920-735747.png',
-        documentation: 'images/teama.webp'
+        home: 'bg-1.png',
+        paleozoic: 'paleo.webp',
+        mesozoic: '822f8fb9811d9b71fa4c167a76de683f.jpg',
+        cenozoic: 'bg-2.png',
+        team: 'bg-4.png',
+        members: 'team.jpg',
+        references: 'thumb-1920-735747.png',
+        documentation: 'teama.webp'
       };
       
       bgOverlay.style.opacity = '0';
@@ -82,9 +82,9 @@ function initPage() {
           document.getElementById(era).classList.add('active');
           
           const bgImages = {
-              paleozoic: 'images/paleo.jpg',
-              mesozoic: 'images/meso.jpg',
-              cenozoic: 'images/ceno.jpg'
+              paleozoic: 'paleo.jpg',
+              mesozoic: 'meso.jpg',
+              cenozoic: 'ceno.jpg'
           };
           
           bgOverlay.style.opacity = '0';
@@ -116,9 +116,9 @@ function initPage() {
       document.getElementById(eraId).classList.add('active');
       
       const bgImages = {
-          paleozoic: 'images/paleo.jpg',
-          mesozoic: 'images/meso.jpg',
-          cenozoic: 'images/ceno.jpg'
+          paleozoic: 'paleo.jpg',
+          mesozoic: 'meso.jpg',
+          cenozoic: 'ceno.jpg'
       };
       
       bgOverlay.style.opacity = '0';
@@ -142,7 +142,7 @@ function initPage() {
         lifeForms: 'The Cambrian explosion brought an incredible diversity of life! Trilobites, anomalocaris, and other strange creatures filled the oceans. It was like a big party where everyone was invited!',
         geoFeatures: 'The supercontinent Rodinia had broken apart, and the continents were scattered. The climate was generally warm, with no ice at the poles. Shallow seas covered much of the land.',
         funFact: 'Did you know? Almost all major animal groups first appeared during the Cambrian explosion! It\'s like when Steven first met all the different gems!',
-      image: 'images/Periods/cambrian-life.webp',
+      image: 'cambrian-life.webp',
   caption: 'Life exploded like a gem fusion party—trilobites everywhere!'
       },
     'ordovician': {
@@ -151,7 +151,7 @@ function initPage() {
         lifeForms: 'Life continued to diversify in the oceans. Graptolites, brachiopods, and cephalopods became common. The first primitive plants appeared on land.',
         geoFeatures: 'The continents were moving toward the south pole. There were extensive shallow seas, and the climate was warm and tropical.',
         funFact: 'The Ordovician ended with one of the five great mass extinctions in Earth\'s history!',
-      image: 'images/Periods/ordovician.jpg',
+      image: 'ordovician.jpg',
   caption: 'Sea creatures stepped up their fashion game—tentacles and all.'
       },
     'silurian': {
@@ -160,7 +160,7 @@ function initPage() {
         lifeForms: 'Coral reefs became more common. The first jawed fish appeared. Plants and arthropods began to colonize the land more extensively.',
         geoFeatures: 'The climate stabilized after the Ordovician extinction. Sea levels were high, flooding many continental areas.',
         funFact: 'The first definite fossils of terrestrial animals (millipedes) appear in the Silurian!',
-          image: 'images/Periods/silurian.jpg',
+          image: 'silurian.jpg',
   caption: 'Land plants dipped their roots in and said, "We live here now."'
     },
     'devonian': {
@@ -170,7 +170,7 @@ function initPage() {
         geoFeatures: 'The supercontinent Gondwana covered the southern hemisphere. The climate was warm with no polar ice.',
         funFact: 'The Devonian extinction was one of the "Big Five" mass extinctions!',
   
-         image: 'images/Periods/devonian.jpg',
+         image: 'devonian.jpg',
   caption: 'The Age of Fishes? More like the Gem Beach Bash underwater!'
     },
     'carboniferous': {
@@ -180,7 +180,7 @@ function initPage() {
         geoFeatures: 'The continents were coming together to form Pangaea. The climate was warm and humid with extensive wetlands.',
         funFact: 'The oxygen levels were so high that insects could grow to enormous sizes!',
   
-         image: 'images/Periods/Carboniferous-Period.webp',
+         image: 'Carboniferous-Period.webp',
   caption: 'Insects were so big they could’ve had their own gem teams.'
     },
     'permian': {
@@ -190,7 +190,7 @@ function initPage() {
         geoFeatures: 'Pangaea was fully formed. The climate was generally hot and dry inland.',
         funFact: 'The Permian ended with the largest mass extinction in Earth\'s history - about 90% of marine species and 70% of terrestrial species went extinct!',
    
-    image: 'images/Periods/Permian.jpg',
+    image: 'Permian.jpg',
   caption: 'The party ended with a bang... and almost everyone left.'
       },
     'triassic': {
@@ -200,7 +200,7 @@ function initPage() {
         geoFeatures: 'Pangaea began to break apart. The climate was generally hot and dry.',
         funFact: 'The Triassic-Jurassic extinction paved the way for dinosaurs to dominate!',
   
-         image: 'images/Periods/triassic-period.jpg',
+         image: 'triassic-period.jpg',
   caption: 'Dinosaurs got their invite—small, awkward, but full of promise.'
     },
     'jurassic': {
@@ -210,7 +210,7 @@ function initPage() {
         geoFeatures: 'Pangaea continued to break apart. The climate was warm with no polar ice.',
         funFact: 'The Jurassic is when some of the most famous dinosaurs like Stegosaurus and Brachiosaurus lived!',
   
-         image: 'images/Periods/Jurrasic.avif',
+         image: 'Jurrasic.avif',
   caption: 'The dinos took over like the Diamonds on Homeworld!'
     },
     'cretaceous': {
@@ -220,7 +220,7 @@ function initPage() {
         geoFeatures: 'Continents were approaching their modern positions. Sea levels were very high.',
         funFact: 'The Cretaceous-Paleogene extinction wiped out all non-avian dinosaurs!',
   
-         image: 'images/Periods/cretaceous-period-landscape-polar-forest-full-width.jpg.thumb.1024.1024.png',
+         image: 'cretaceous-period-landscape-polar-forest-full-width.jpg.thumb.1024.1024.png',
   caption: 'T-Rex ruled, flowers bloomed, and the final curtain fell.'
     },
     'paleogene': {
@@ -230,7 +230,7 @@ function initPage() {
         geoFeatures: 'Continents continued to drift toward their current positions. The climate cooled toward the end.',
         funFact: 'This is when many modern mammal groups first appeared!',
   
-         image: 'images/Periods/paleogene.jpg',
+         image: 'paleogene.jpg',
   caption: 'Mammals leveled up—fluffy, fierce, and fabulously evolved.'
     },
     'neogene': {
@@ -240,7 +240,7 @@ function initPage() {
         geoFeatures: 'Continents were close to their current positions. The climate cooled, leading to ice ages.',
         funFact: 'The first humans (Homo) appeared in the late Neogene!',
         
-         image: 'images/Periods/neogone.jpg',
+         image: 'neogone.jpg',
   caption: 'Apes got clever, grass took over, and hominids made moves.'
     },
     'quaternary': {
@@ -248,7 +248,7 @@ function initPage() {
         lifeForms: 'Modern humans evolved and spread across the globe. Many large mammals went extinct.',
         geoFeatures: 'Repeated glacial cycles (ice ages) occurred. Sea levels rose and fell dramatically.',
         funFact: 'We are currently living in the Quaternary Period!',
-       image: 'images/Periods/Quaternary-Period.webp',
+       image: 'Quaternary-Period.webp',
   caption: 'From Ice Ages to iPhones—this is our story.'
     }
   };
