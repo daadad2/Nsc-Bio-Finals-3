@@ -30,7 +30,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('images/crystal-pattern.png');
+    background-image: url('crystal-pattern.png');
     background-size: 300px;
     opacity: 0.05;
     z-index: -1;
@@ -167,36 +167,36 @@ body {
     opacity: 0.1;
     z-index: -1;
     transition: all 0.5s ease;
-    background-image: url('images/bg-1.png');
+    background-image: url('bg-1.png');
 }
 
 #home.active ~ .page-bg-overlay {
-    background-image: url('images/bg-1.png');
+    background-image: url('bg-1.png');
 }
 
 #paleozoic.active ~ .page-bg-overlay {
-    background-image: url('images/paleo.jpg');
+    background-image: url('paleo.jpg');
 }
 
 #mesozoic.active ~ .page-bg-overlay {
-    background-image: url('images/meso.jpg');
+    background-image: url('meso.jpg');
 }
 
 #cenozoic.active ~ .page-bg-overlay {
-    background-image: url('images/ceno.jpg');
+    background-image: url('ceno.jpg');
 }
 
 #team.active ~ .page-bg-overlay {
-    background-image: url('images/bg-2.png');
+    background-image: url('bg-2.png');
 }
 
 #members.active ~ .page-bg-overlay {
-    background-image: url('images/team.jpg');
+    background-image: url('team.jpg');
     opacity: 0.15;
 }
 
 #references.active ~ .page-bg-overlay {
-    background-image: url('images/thumb-1920-735747.png');
+    background-image: url('thumb-1920-735747.png');
 }
 
 header {
